@@ -827,7 +827,7 @@ header{
 }
 .header-feedback h4{
     font-size: 20px;
-    text-transform:lowercase!important;
+    text-transform:uppercase;
     font-weight: 800 !important;
     display: inline-block;
     background-image: linear-gradient(45deg,#00c0ff 0%,#ff014f 70%);
@@ -842,6 +842,7 @@ header{
     color: white;
     font-weight: 800;
     font-size: 36px;
+    text-transform:capitalize;
 
 }
 .header-feedback .linear-red{
@@ -1747,10 +1748,10 @@ footer .container .p-footer{
         padding-bottom:50px ;
     }
     .container-img-feedback img{
-        left: -10% !important;
+        left: -1% !important;
     }
     .container-img-feedback .img-client::after{
-        left: 10%;
+        left: 14%;
     }
     .container-bio .ul-1 li, .container-bio .ul-2 li{
         flex-direction: column;
@@ -1765,7 +1766,7 @@ footer .container .p-footer{
         padding: 0;
     }
     .container-img-feedback img{
-        left: -4% !important;
+        left: 1% !important;
     }
     .container-img-feedback .img-client::after{
         left: 13%;
