@@ -260,6 +260,7 @@ header{
    max-width:100%;
    z-index: 2;
    object-fit: cover;
+    mask-image: linear-gradient(to bottom, black 80%,transparent 100% );
    -webkit-mask-image: linear-gradient(to bottom, black 80%,transparent 100% );
    
 }
@@ -570,6 +571,7 @@ header{
     top: -50px;
     left: 24%;
     object-fit: cover;
+    mask-image: linear-gradient(to bottom, black 80%,transparent 100% );
     -webkit-mask-image: linear-gradient(to bottom, black 80%,transparent 100% );
     
 }
@@ -876,6 +878,7 @@ header{
     z-index: 2;
     left: -10px;
     object-fit: cover;
+    mask-image: linear-gradient(to bottom, black 80%,transparent 100% );
     -webkit-mask-image: linear-gradient(to bottom, black 80%,transparent 100% );
 }
 .container-img-feedback .img-client::after{
